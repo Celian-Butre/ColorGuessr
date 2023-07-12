@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Colorful Square</title>
+  <link rel="stylesheet" href="ColorGuessr-style.css">
+</head>
+<body>
+  <div class="containerCenter">
+    <h1>ColorGuessr</h1>
+  
+    <div class="square-wrapper">
+      <div id="colorGoalSquare" class="squareGoal"></div>
+      <div class="label">Goal Color</div>
+    </div> 
+
+    <div class="square-wrapper">
+      <div id="colorLiveSquare" class="squareLive"></div>
+      <div class="label">Your Color</div>
+    </div>
+  
+    <div class="sliders-container">
+      <div class="slider-wrapper">
+        <input type="range" autocomplete="off" orient="vertical" id="redSlider" class="slider" min="0" max="255" value="0">
+        <span class="slider-value" id="redValue">0</span>
+      </div>
+      <div class="slider-wrapper">
+        <input type="range" autocomplete="off" orient="vertical" id="greenSlider" class="slider" min="0" max="255" value="0">
+        <span class="slider-value" id="greenValue">0</span>
+      </div>
+      <div class="slider-wrapper">
+        <input type="range" autocomplete="off" orient="vertical" id="blueSlider" class="slider" min="0" max="255" value="0">
+        <span class="slider-value" id="blueValue">0</span>
+      </div>
+    </div>
+  
+    <button id="revealButton" class="btn">Reveal</button>
+    <h3 id="AnswerDistance">Distance: </h3>
+    <h3 id="AnswerValue">Real Value: </h3>
+
+    <button id="proButton" class="btn">Pro Mode</button>
+
+  </div>
+  
+  <script src="ColorGuessr-main.js"></script>
+</body>
+</html>

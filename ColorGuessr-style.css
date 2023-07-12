@@ -1,0 +1,141 @@
+.squareLive {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+}
+
+.squareGoal {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+}
+
+.label {
+  text-align: center;
+}
+
+
+
+.containerCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.square-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px; /* Adjust the margin as needed */
+}
+
+.square-wrapper .label {
+  margin-left: 10px; /* Adjust the margin as needed */
+  margin-right: -95px;
+}
+
+.slider-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40px;
+}
+
+.sliders-container {
+  display: flex;
+}
+
+.btn {
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+
+
+
+
+input#redSlider[type=range] {
+  height: 200px;
+  margin: 10px 0;
+  width: 30%;
+}
+input#redSlider[type=range]:focus {
+  outline: none;
+}
+
+
+input#redSlider[type=range]::-moz-range-track {
+  width: 67%;
+  height: 180px;
+  cursor: pointer;
+  background: #592020;
+  border-radius: 14px;
+  border: 1px solid #D51818;
+}
+input#redSlider[type=range]::-moz-range-thumb {
+  border: 2px solid #E58383;
+  height: 23px;
+  width: 23px;
+  border-radius: 23px;
+  background: #964343;
+  cursor: pointer;
+}
+
+
+
+
+input#greenSlider[type=range] {
+  height: 200px;
+  margin: 10px 0;
+  width: 30%;
+}
+input#greenSlider[type=range]:focus {
+  outline: none;
+}
+
+
+input#greenSlider[type=range]::-moz-range-track {
+  width: 67%;
+  height: 180px;
+  cursor: pointer;
+  background: #205920;
+  border-radius: 14px;
+  border: 1px solid #18D518;
+}
+input#greenSlider[type=range]::-moz-range-thumb {
+  border: 2px solid #83E583;
+  height: 23px;
+  width: 23px;
+  border-radius: 23px;
+  background: #439643;
+  cursor: pointer;
+}
+
+
+input#blueSlider[type=range] {
+  height: 200px;
+  margin: 10px 0;
+  width: 30%;
+}
+input#blueSlider[type=range]:focus {
+  outline: none;
+}
+
+
+input#blueSlider[type=range]::-moz-range-track {
+  width: 67%;
+  height: 180px;
+  cursor: pointer;
+  background: #202059;
+  border-radius: 14px;
+  border: 1px solid #1818D5;
+}
+input#blueSlider[type=range]::-moz-range-thumb {
+  border: 2px solid #8383E5;
+  height: 23px;
+  width: 23px;
+  border-radius: 23px;
+  background: #434396;
+  cursor: pointer;
+}
